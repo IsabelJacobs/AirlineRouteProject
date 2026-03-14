@@ -8,7 +8,7 @@ The project transforms raw airline route data into an analytics-ready dataset an
 
 ## Architecture
 
-![Architecture](architecture_diagram.png)
+![Architecture](screenshots/architecture_diagram.png)
 
 The pipeline follows a simple structure:
 
@@ -47,7 +47,7 @@ ORDER BY RouteCount DESC;
 
 ## Dashboard
 
-![Power BI Dashboard](powerbi_dashboard.png)
+![Power BI Dashboard](screenshots/powerbi_dashboard.png)
 
 ---
 
