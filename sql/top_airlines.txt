@@ -1,0 +1,6 @@
+SELECT TOP 10 
+AirlineCode,
+COUNT(*) AS Routes
+FROM rpt_airline_routes
+GROUP BY AirlineCode
+ORDER BY Routes DESC; 

@@ -1,0 +1,7 @@
+Select TOP 10
+
+SourceAirport, 
+COUNT(*) AS RouteCount
+FROM rpt_airline_routes
+GROUP BY SourceAirport
+ORDER BY RouteCount DESC; 
